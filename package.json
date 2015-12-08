@@ -1,6 +1,6 @@
 {
   "name": "containership.plugin.logs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Official logging plugin for ContainerShip",
   "main": "application.js",
   "scripts": {
