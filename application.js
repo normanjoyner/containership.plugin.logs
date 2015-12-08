@@ -17,6 +17,7 @@ module.exports = new ContainershipPlugin({
                         image: "gliderlabs/logspout:latest",
                         cpus: 0.1,
                         memory: 128,
+                        container_port: 8000,
                         tags: {
                             constraints: {
                                 per_host: 1
@@ -24,7 +25,13 @@ module.exports = new ContainershipPlugin({
                             metadata: {
                                 plugin: application_name
                             }
-                        }
+                        },
+                        volumes: [
+                            {
+                                host: "/var/run/docker.sock",
+                                container: "/tmp/docker.sock"
+                            }
+                        ]
                     }, function(){
                         core.loggers[application_name].log("verbose", ["Created ", application_name, "!"].join(""));
                     });
