@@ -1,0 +1,15 @@
+{
+  "name": "containership.plugin.logs",
+  "version": "0.0.0",
+  "dependencies": {
+    "containership.plugin": {
+      "version": "0.3.0",
+      "from": "containership.plugin@^0.3.0"
+    },
+    "lodash": {
+      "version": "3.10.1",
+      "from": "lodash@^3.0.0",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+    }
+  }
+}
