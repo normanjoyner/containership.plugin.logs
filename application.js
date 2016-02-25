@@ -16,7 +16,7 @@ module.exports = new ContainershipPlugin({
                         id: application_name,
                         image: "gliderlabs/logspout:latest",
                         cpus: 0.1,
-                        memory: 128,
+                        memory: 64,
                         container_port: 8000,
                         tags: {
                             constraints: {

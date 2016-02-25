@@ -3,22 +3,25 @@ logs
 
 ##About
 
-###Description
+### Build Status
+[![Build Status](https://drone.containership.io/api/badges/containership/containership.plugin.logs/status.svg)](https://drone.containership.io/containership/containership.plugin.logs)
+
+### Description
 Official logging plugin for Containership
 
-###Author
+### Author
 ContainerShip Developers - developers@containership.io
 
-##Usage
+## Usage
 
-###Install
+### Install
 `containership plugin add logs`
 
-###Update
+### Update
 `containership plugin update logs`
 
-###Remove
+### Remove
 `containership plugin remove logs`
 
-##Contributing
+## Contributing
 Pull requests and issues are encouraged!
