@@ -14,7 +14,7 @@ module.exports = new ContainershipPlugin({
                 if(err){
                     core.applications.add({
                         id: application_name,
-                        image: "gliderlabs/logspout:latest",
+                        image: "gliderlabs/logspout:v2",
                         cpus: 0.1,
                         memory: 64,
                         container_port: 8000,
