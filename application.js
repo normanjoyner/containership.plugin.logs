@@ -68,7 +68,7 @@ module.exports = new ContainershipPlugin({
                 });
             });
 
-            return logs.Init(core).register_route();
+            return logs.Init(core).register_routes();
         }
     },
 
