@@ -9,8 +9,8 @@ const ContainershipPlugin = require('containership.plugin');
 module.exports = new ContainershipPlugin({
     type: 'core',
 
-    initialize: function(core){
-        const DEFAULT_LOG_PATH = core.options["base-log-dir"] || '/var/log/containership';
+    initialize: function(core) {
+        const DEFAULT_LOG_PATH = core.options['base-log-dir'] || '/var/log/containership';
         const application_name = 'containership-logs';
         core.logger.register(application_name);
 
