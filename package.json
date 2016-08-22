@@ -4,7 +4,8 @@
   "description": "Official logging plugin for ContainerShip",
   "main": "application.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "author": "ContainerShip Developers <developers@containership.io>",
   "license": "GPL-3.0",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/containership/containership.plugin.logs/issues"
   },
-  "homepage": "https://github.com/containership/containership.plugin.logs"
+  "homepage": "https://github.com/containership/containership.plugin.logs",
+  "devDependencies": {
+    "eslint": "^3.3.1"
+  }
 }
