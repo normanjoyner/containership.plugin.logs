@@ -44,9 +44,9 @@
         "space-before-blocks": [2, "always"],
         "no-octal": 2,
         "no-redeclare": 2,
+        "strict": [2, "global"],
         "no-regex-spaces": 2,
         "no-octal-escape": 2,
-        "strict": [2, "global"],
         "space-before-function-paren": [2, "never"],
         "semi": [
             "error",
