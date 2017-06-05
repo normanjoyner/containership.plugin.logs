@@ -1,13 +1,13 @@
 {
-  "name": "containership.plugin.logs",
-  "version": "1.0.0",
+  "name": "containership.plugin.logs.v2",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "containership.plugin.v2": "file:../containership.plugin.v2",
+    "@containership/containership.plugin": "git://github.com/containership/containership.plugin#v2",
     "lodash": "^4.17.4",
     "request": "^2.81.0"
   },
